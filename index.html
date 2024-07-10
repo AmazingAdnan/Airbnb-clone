@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="airbnb.png" />
+    <title>Airbnb | Holiday</title>
+  </head>
+  <body>
+    <!-------------------------- header -------------------------->
+    <header>
+
+    <div
+      class="grid grid-cols-3 px-12 w-screen h-20 border-b-[1px] items-center fixed top-0 bg-white"
+    >
+      <img src="pngwing.com.png" alt="" class="h-16 w-28" />
+      <div
+        class="flex justify-evenly items-center border rounded-full h-12 w-96 shadow-md"
+      >
+        <button class="text-sm border-r-2 font-medium px-4">Anywhere</button>
+        <button class="text-sm border-r-2 font-medium px-4">Any week</button>
+        <button class="text-sm text-gray-500 font-medium px-4">
+          Add guests
+        </button>
+        <i
+          class="fa-solid fa-magnifying-glass bg-red-500 rounded-full text-white p-2"
+        ></i>
+      </div>
+      <div class="flex justify-end items-center gap-8">
+        <button>Airbnb your home</button>
+        <span class="material-symbols-outlined"> language </span>
+        <div
+          class="flex justify-evenly items-center rounded-full gap-2 border shadow h-10 w-20 pl-3 pr-1.5"
+        >
+          <i class="fa-solid fa-bars"></i>
+          <button class="bg-black text-white h-7 w-7 rounded-full">E</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex w-screen item-center h-24 space-x-5 fixed top-20 bg-white ">
+      <div class="flex items-center space-x-8">
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2 pl-12"
+        >
+          <img
+            src="3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.webp"
+            alt=""
+            class="h-6 w-6"
+          />
+          <p>Icons</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="amazing pool.jpg" alt="" class="h-6 w-6" />
+          <p>Amazing Pools</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="amazing view.jpg" alt="" class="h-6 w-6" />
+          <p>Amazing views</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="farms.jpg" alt="" class="h-6 w-6" />
+          <p>Farms</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="containers.jpg" alt="" class="h-6 w-6" />
+          <p>Containers</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="bed.jpg" alt="" class="h-6 w-6" />
+          <p>Bed&Breakfast</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="treehouse.jpg" alt="" class="h-6 w-6" />
+          <p>Treehouses</p>
+        </div>
+        <div
+          class="flex flex-col text-gray-400 items-center hover:text-black gap-2"
+        >
+          <img src="omg.jpg" alt="" class="h-6 w-6" />
+          <p>OMG!</p>
+        </div>
+      </div>
+      <span class="material-symbols-outlined mt-6 pl-4">
+        arrow_circle_right
+      </span>
+      <div
+        class="h-12 w-24 border shadow-md rounded-xl flex justify-around items-center mt-4"
+      >
+        <span class="material-symbols-outlined"> sync_alt </span>
+        <p class="text-xs font-medium pr-2">Filter</p>
+      </div>
+      <div class="flex justify-center">
+        <div
+          class="flex justify-between mt-4 shadow-md h-14 rounded-xl p-2 border items-center text-xs"
+        >
+          <div class="flex justify-start">
+            <p>Display total before taxes</p>
+          </div>
+          <span class="material-symbols-outlined"> toggle_off </span>
+        </div>
+      </div>
+    </div>
+
+  </header>
+    <!----------------------- main ----------------------->
+
+    <main class="mt-48 mx-10 mb-4">
+      <div class="grid grid-cols-4">
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img1.jpeg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img2.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img3.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img4.avif"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img1.jpeg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img2.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img3.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img4.avif"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img1.jpeg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img2.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img3.jpg"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+        <div class="flex flex-col h-96 w-72">
+          <img
+            src="img4.avif"
+            alt=""
+            class="w-72 h-64 rounded-lg"
+          />
+          <div class="flex justify-between">
+            <p class="text-sm font-medium">Lonavla,India</p>
+            <div class="flex">
+              <i class="fa-solid fa-star"></i>
+              <p class="font-light">5.0</p>
+            </div>
+          </div>
+          <p class="text-sm  text-gray-700">282 Kelometers away</p>
+          <p class="text-sm  text-gray-700">12 July - 15 july</p>
+          <p class="text-sm font-medium mt-2">21,399 night</p>
+        </div>
+
+      </div>
+  
+    </main>
+
+
+
+    <!---------------------------------- footer  ---------------------------------->
+
+
+
+
+    <footer class=" flex justify-between h-10 bg-white fixed bottom-0 w-screen px-10 items-center">
+
+      <div class="flex text-sm font-base space-x-2">
+        <p>© 2024 Airbnb, Inc.</p>
+        <p>·</p>
+        <p>Privacy</p>
+        <p>·</p>
+        <p>Terms</p>
+        <p>·</p>
+        <p>Sitemap</p>
+        <p>·</p>
+        <p>Company details</p>
+      </div>
+      <div class="flex text-sm font-medium space-x-4 items-center">
+        <span class="material-symbols-outlined"> language </span>
+        <p>English</p>
+        <div class="flex"><span class="material-symbols-outlined">
+          currency_rupee
+          </span>
+          <p>INR</p></div>
+          <i class="w-4 h-4 fa-brands fa-square-facebook"></i>
+          <i class="w-4 h-4 fa-brands fa-square-twitter"></i>
+          <i class="w-4 h-4 fa-brands fa-square-instagram"></i>
+      </div>
+
+
+    </footer>
+
+  </body>
+</html>
